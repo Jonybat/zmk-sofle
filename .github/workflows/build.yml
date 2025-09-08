@@ -1,4 +1,6 @@
 name: Build ZMK firmware
+permissions:
+  contents: read
 on:
   workflow_dispatch:
   push:
