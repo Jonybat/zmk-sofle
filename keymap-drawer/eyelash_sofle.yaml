@@ -88,7 +88,7 @@ layers:
   - PgDn
   - HOME
   - $$mdi:arrow-up-bold$$
-  - HOME
+  - END
   - PRINTSCREEN
   - F11
   - {t: ']', s: '}'}
@@ -112,8 +112,8 @@ layers:
   - '2'
   - '3'
   - END
-  - PgDn
   - PgUp
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
