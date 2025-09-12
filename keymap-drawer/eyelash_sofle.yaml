@@ -106,7 +106,7 @@ layers:
   - F12
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
-  - <
+  - {t: \, s: '|'}
   - '0'
   - '1'
   - '2'
