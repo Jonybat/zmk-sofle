@@ -67,11 +67,11 @@
 
         SYMBOL {
             bindings = <
-&kp GRAVE      &kp F1  &kp F2        &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp F6          &kp F7          &kp F8           &kp F9           &kp F10  &kp EQUAL
-&none          &none   &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp DOWN_ARROW   &kp HOME        &kp UP_ARROW    &kp END          &kp PRINTSCREEN  &kp F11  &kp RIGHT_BRACKET
-&none          &none   &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_ARROW   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INSERT       &kp F12  &kp NON_US_HASH
-&kp LESS_THAN  &none   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RIGHT_ARROW  &kp PAGE_UP     &kp PAGE_DOWN   &trans           &trans           &none    &none
-&none          &none   &none         &none         &none         &none           &kp RET          &none           &none           &none            &none            &none
+&kp GRAVE  &kp F1         &kp F2           &kp F3        &kp F4        &kp F5          &kp UP_ARROW     &kp F6          &kp F7          &kp F8           &kp F9           &kp F10  &kp EQUAL
+&trans     &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp DOWN_ARROW   &kp HOME        &kp UP_ARROW    &kp END          &kp PRINTSCREEN  &kp F11  &kp RIGHT_BRACKET
+&trans     &kp KP_MINUS   &kp KP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_ARROW   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INSERT       &kp F12  &kp NON_US_HASH
+&trans     &kp LESS_THAN  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RIGHT_ARROW  &kp PAGE_UP     &kp PAGE_DOWN   &trans           &trans           &none    &none
+&none      &trans         &trans           &none         &none         &trans          &kp RET          &trans          &trans          &trans           &trans           &trans
             >;
 
             display-name = "SYMBOL";
