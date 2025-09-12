@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '`', s: '~'}
   - $$mdi:volume-off$$
-  - LWIN
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - SYSTEM
   - SYMBOL
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - SYMBOL
-  - SYSTEM
+  - $$mdi:apple-keyboard-option$$
+  - RIGHT GUI
   SYMBOL:
   - {t: '`', s: '~'}
   - F1
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYSTEM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -194,4 +194,4 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: held alternate}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
