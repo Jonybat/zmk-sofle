@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - SYMBOL
+  - SYSTEM
   SYMBOL:
   - {t: '`', s: '~'}
   - F1
@@ -86,10 +86,10 @@ layers:
   - '8'
   - '9'
   - $$mdi:arrow-down-bold$$
-  - PRINTSCREEN
   - HOME
+  - $$mdi:arrow-up-bold$$
   - END
-  - PgUp
+  - PRINTSCREEN
   - F11
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -99,10 +99,10 @@ layers:
   - '5'
   - '6'
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - Ins
-  - $$mdi:arrow-up-bold$$
-  - PgDn
   - F12
   - '#'
   - <
@@ -112,10 +112,10 @@ layers:
   - '2'
   - '3'
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - PgUp
+  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYSTEM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -194,4 +194,4 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:backup-restore$$', type: held alternate}
