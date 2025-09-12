@@ -53,7 +53,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '`', s: '~'}
-  - $$mdi:volume-off$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - SYSTEM
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - PgUp
   - F6
   - F7
   - F8
@@ -85,10 +85,10 @@ layers:
   - '7'
   - '8'
   - '9'
-  - $$mdi:arrow-down-bold$$
+  - PgDn
   - HOME
   - $$mdi:arrow-up-bold$$
-  - END
+  - HOME
   - PRINTSCREEN
   - F11
   - {t: ']', s: '}'}
@@ -98,7 +98,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - $$mdi:arrow-left-bold$$
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -111,20 +111,20 @@ layers:
   - '1'
   - '2'
   - '3'
-  - $$mdi:arrow-right-bold$$
-  - PgUp
+  - END
   - PgDn
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -132,8 +132,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYSTEM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&soft_off'
+  - EP TOG
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
@@ -146,10 +146,10 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PLAY PAUSE
-  - STOP
-  - PREVIOUS
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
@@ -158,11 +158,11 @@ layers:
   - {t: BT DISC, h: '4'}
   - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB4'
+  - $$mdi:mouse-scroll-wheel$$
+  - '&mkp MB5'
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB TOG
   - RGB BRD
@@ -183,7 +183,7 @@ layers:
   - RGB EFF
   - RGB SPD
   - RGB SPI
-  - '&soft_off'
+  - $$mdi:volume-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
