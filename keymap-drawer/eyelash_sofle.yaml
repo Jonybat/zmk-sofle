@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {t: SYMBOL, h: toggle}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - {t: GAME, h: toggle}
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - {t: SYSTEM, h: toggle}
   - N
   - M
   - {t: ',', s: <}
@@ -56,10 +56,10 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&mo2_to3'
-  - '&mo1_to1'
+  - SYSTEM
+  - SYMBOL
   - RETURN
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - PgUp
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
@@ -85,7 +85,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
@@ -98,7 +98,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -111,7 +111,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
@@ -121,10 +121,10 @@ layers:
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mo2_to3'
-  - $$mdi:keyboard-space$$
+  - KP NUMLOCK
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ins
+  - {t: MAIN, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,10 +186,10 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: MAIN, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -254,13 +254,9 @@ layers:
   - '|'
   - $$mdi:keyboard-space$$
   - RETURN
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: MAIN, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   - RIGHT GUI
-combos:
-- p: [55, 56]
-  k: {t: MAIN, h: toggle}
-  l: [SYMBOL, SYSTEM, GAME]
