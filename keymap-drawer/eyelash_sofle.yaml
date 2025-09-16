@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - '&mo2_to3'
-  - SYMBOL
+  - '&mo1_to1'
   - RETURN
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -82,47 +82,47 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
   - KP MULTIPLY
-  - '7'
-  - '8'
-  - '9'
+  - KP 7
+  - KP 8
+  - KP 9
   - PgDn
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - PRINTSCREEN
+  - PgUp
   - F11
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MINUS
   - KP PLUS
-  - '4'
-  - '5'
-  - '6'
+  - KP 4
+  - KP 5
+  - KP 6
   - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ins
+  - PgDn
   - F12
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - \
-  - '0'
-  - '1'
-  - '2'
-  - '3'
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
   - END
-  - PgUp
-  - PgDn
+  - PRINTSCREEN
+  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - SYSREQ
+  - PAUSE BREAK
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - '&mo2_to3'
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
@@ -134,7 +134,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&soft_off'
   - EP TOG
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&studio_unlock'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -263,4 +263,4 @@ layers:
 combos:
 - p: [55, 56]
   k: {t: MAIN, h: toggle}
-  l: [GAME]
+  l: [SYMBOL, SYSTEM, GAME]
