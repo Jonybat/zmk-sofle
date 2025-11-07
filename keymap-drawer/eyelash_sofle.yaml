@@ -250,8 +250,8 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:apple-keyboard-command$$
+  - \
   - $$mdi:apple-keyboard-option$$
-  - '|'
   - $$mdi:keyboard-space$$
   - RETURN
   - {t: MAIN, h: toggle}
