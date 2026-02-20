@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - RIGHT GUI
   SYMBOL:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -134,8 +134,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&soft_off'
   - EP TOG
+  - '&bl BL_TOG'
   - '&studio_unlock'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -143,20 +143,20 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:bluetooth-off$$', s: BT CLR ALL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
-  - BT CLR ALL
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB4'
@@ -164,12 +164,12 @@ layers:
   - '&mkp MB5'
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
-  - RGB BRD
   - RGB BRI
-  - RGB HUD
   - RGB HUI
-  - '&bl BL_TOG'
+  - RGB SAI
+  - RGB SPI
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
@@ -177,12 +177,12 @@ layers:
   - PREVIOUS
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRD
+  - RGB HUD
   - RGB SAD
-  - RGB SAI
-  - RGB EFR
-  - RGB EFF
   - RGB SPD
-  - RGB SPI
+  - RGB EFF
+  - RGB TOG
   - $$mdi:volume-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
