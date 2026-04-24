@@ -92,7 +92,7 @@
 &mkp MCLK     &kp LEFT_GUI  &kp LEFT_ALT  &mo 2   &mo 1   &kp RETURN    &none  &kp SPACE  &kp BACKSPACE  &kp DEL    &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
 
-            display-name = "layer2";
+            display-name = "LAYER2";
             sensor-bindings = <&scroll_encoder>;
         };
 
